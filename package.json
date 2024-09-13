@@ -1,0 +1,35 @@
+{
+  "name": "selenium-scrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build:ts": "npx tsc"
+  },
+  "bin": {
+    "selenium-scrape": "./dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.9",
+    "date-fns": "^3.6.0",
+    "rxjs": "^7.8.1",
+    "selenium-webdriver": "^4.24.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/selenium-webdriver": "^4.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.46.1",
+    "@typescript-eslint/parser": "^5.46.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.1",
+    "typescript": "^5.6.2"
+  }
+}
